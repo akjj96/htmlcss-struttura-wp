@@ -1,0 +1,83 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+/* utility */
+.debug{
+    border: 1px solid black;
+    height: 90%;
+    margin: 30px;
+    
+}
+
+
+header{
+    background-color: blue;
+    height: 80px;
+    margin: 10px;
+}
+.logo{
+    background-color: grey;
+    width: 90px;
+    height: 30px;
+}
+nav{
+    background-color: orange;
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+}
+main{
+    background-color: pink;
+    height: 400px;
+    margin: 10px;
+    position: relative;
+}
+.img{
+    background-color: yellow;
+    position: absolute;
+    width: 600px;
+    height: 150px;
+    right: 30%;
+    bottom: 30%;
+    color: black;
+}
+
+
+.float{
+    background-color: red;
+    height: 400px;
+    margin: 10px;
+    
+
+}
+
+.card{
+    width: 40%;
+    float: left;
+}
+
+.card.card-side{
+    width: 20%;
+}
+
+footer{
+    background-color: green;
+    height: 50px;
+    margin: 10px;
+
+}
+
+
+
